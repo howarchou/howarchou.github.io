@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Howarchou&#39;Blog</title>
-  
+  <icon>https://www.gravatar.com/avatar/34cbef5cc9799e24f2359a3a6a71a7a0</icon>
   <subtitle>blog website</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>Howar Chou</name>
-    
+    <email>howarchou@sina.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
