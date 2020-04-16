@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>闭包经典题目</title>
+    <url>/uncategorized/page-2/</url>
+    <content><![CDATA[<p>记录一道关于闭包的经典题目。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">n,o</span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(o)</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    fun:<span class="function"><span class="keyword">function</span>(<span class="params">m</span>)</span>&#123;</span><br><span class="line">      <span class="keyword">return</span> fun(m,n);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> a = fun(<span class="number">0</span>);  a.fun(<span class="number">1</span>);  a.fun(<span class="number">2</span>);  a.fun(<span class="number">3</span>);    <span class="comment">//undefined,?,?,?</span></span><br><span class="line"><span class="keyword">var</span> b = fun(<span class="number">0</span>).fun(<span class="number">1</span>).fun(<span class="number">2</span>).fun(<span class="number">3</span>);                <span class="comment">//undefined,?,?,?</span></span><br><span class="line"><span class="keyword">var</span> c = fun(<span class="number">0</span>).fun(<span class="number">1</span>);  c.fun(<span class="number">2</span>);  c.fun(<span class="number">3</span>);        <span class="comment">//undefined,?,?,?</span></span><br><span class="line"><span class="comment">//问:三行a,b,c的输出分别是什么？</span></span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <tags>
+        <tag>js</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一道常被人轻视的前端JS面试题</title>
     <url>/uncategorized/page-1/</url>
     <content><![CDATA[<p>最近在网上看到一道javascript的面试题，很有意思：</p>
