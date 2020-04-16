@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.zhougg.com/uncategorized/hello-world/</loc>
-    <lastmod>2020-04-15</lastmod>
+    <loc>https://blog.zhougg.com/uncategorized/page-1/</loc>
+    <lastmod>2020-04-16</lastmod>
   </url>  <url>
     <loc>https://blog.zhougg.com/hexo/page/</loc>
+    <lastmod>2020-04-16</lastmod>
+  </url>  <url>
+    <loc>https://blog.zhougg.com/uncategorized/hello-world/</loc>
     <lastmod>2020-04-15</lastmod>
   </url>
 </urlset>

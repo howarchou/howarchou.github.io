@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">387</span>
+            <span class="post-count">393</span>
         </span>
     </span>
 
@@ -107,20 +107,20 @@
       
 
       
-      <h3 id="1、GitHub创建个人仓库"><a href="#1、GitHub创建个人仓库" class="headerlink" title="1、GitHub创建个人仓库"></a>1、GitHub创建个人仓库</h3><p>注册github账号，登录后，Create a new repository，输入repository name， 完整的仓库名格式：<user-name>/<repository-name>.github.io 格式，user-name为github的账号名，repository-name为仓库名。</p>
+      <h3 id="1、GitHub创建个人仓库"><a href="#1、GitHub创建个人仓库" class="headerlink" title="1、GitHub创建个人仓库"></a>1、GitHub创建个人仓库</h3><p>注册github账号，登录后，Create a new repository，输入repository name， 完整的仓库名格式：[user-name]/[repository-name].github.io 格式，user-name为github的账号名，repository-name为仓库名。</p>
 <h3 id="2、全局安装hexo"><a href="#2、全局安装hexo" class="headerlink" title="2、全局安装hexo"></a>2、全局安装hexo</h3><p>打开cmd，输入如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
 
-<h3 id="3、创建项目名myblog，并初始化项目"><a href="#3、创建项目名myblog，并初始化项目" class="headerlink" title="3、创建项目名myblog，并初始化项目"></a>3、创建项目名myblog，并初始化项目</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; 本地运行</span><br><span class="line">cd myblog</span><br><span class="line">hexo init</span><br><span class="line">npm install </span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="3、创建项目名myblog，并初始化项目"><a href="#3、创建项目名myblog，并初始化项目" class="headerlink" title="3、创建项目名myblog，并初始化项目"></a>3、创建项目名myblog，并初始化项目</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 本地运行</span><br><span class="line">cd myblog</span><br><span class="line">hexo init</span><br><span class="line">npm install </span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
 <h3 id="4、部署到github"><a href="#4、部署到github" class="headerlink" title="4、部署到github"></a>4、部署到github</h3><p>修改根目录下面的_config.yml文件，找到deploy字段，并填写完整，</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;howarchou&#x2F;howarchou.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;howarchou&#x2F;howarchou.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <p>尤其注意字段后面的空格。然后执行如下命令，即可发布到github。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo clean</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo clean</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 <p>注意 deploy时可能要你输入github的username和password。</p>
 <h3 id="5、查看效果"><a href="#5、查看效果" class="headerlink" title="5、查看效果"></a>5、查看效果</h3><p>浏览器访问：<a href="https://howarchou.github.io" target="_blank" rel="noopener">https://howarchou.github.io</a> 即可看到效果。</p>
 <h3 id="6、个性化域名"><a href="#6、个性化域名" class="headerlink" title="6、个性化域名"></a>6、个性化域名</h3><p>1、在项目文件夹下的source目录，新建一个CNAME文件，没有后缀，里面仅一行代码，写上域名， 然后执行：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
 <p>2、去万网购买一个域名并认证，进入dns解析控制台，我用的<a href="https://www.dnspod.cn/" target="_blank" rel="noopener">dnspod</a>，新建两条A记录，分别指向185.199.108.153和185.199.109.153；再增加一条CNAME记录，主机记录名为blog，指向刚才浏览器访问的网址：<em>howarchou.github.io.</em><br>注意后面有个点，过几分钟dns解析生效后就可以看效果了。比如我的域名是zhougg.com， 访问地址是：blog.zhougg.com 。<br>至此，搭建的个性博客就完成了。</p>
 
@@ -209,15 +209,20 @@
   
   <nav class="article-nav">
     
-      <a href="/uncategorized/hello-world/" class="article-nav-link">
+      <a href="/uncategorized/page-1/" class="article-nav-link">
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            Hello World
+            一道常被人轻视的前端JS面试题
           
         </div>
       </a>
     
+    
+      <a href="/uncategorized/hello-world/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">Hello World</div>
+      </a>
     
   </nav>
 
@@ -667,7 +672,7 @@
     
     
     <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
-        src="//music.163.com/outchain/player?type=2&id=1407551413&auto=1&height=32"></iframe>
+        src="//music.163.com/outchain/player?type=0&id=2764870266&auto=1&height=32"></iframe>
 </div>
 
 <style>
@@ -678,6 +683,7 @@
         z-index: 998;
     }
 </style>
+
     
   </div>
 </body>

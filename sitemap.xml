@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.zhougg.com/uncategorized/page-1/</loc>
+    
+    <lastmod>2020-04-16T03:56:03.791Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.zhougg.com/hexo/page/</loc>
+    
+    <lastmod>2020-04-16T01:28:58.752Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.zhougg.com/photos/index.html</loc>
     
     <lastmod>2020-04-15T09:43:39.087Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>https://blog.zhougg.com/uncategorized/hello-world/</loc>
     
     <lastmod>2020-04-15T07:34:40.281Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.zhougg.com/hexo/page/</loc>
-    
-    <lastmod>2020-04-15T07:34:38.385Z</lastmod>
     
   </url>
   
