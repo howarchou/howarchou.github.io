@@ -103,8 +103,9 @@
       
 
       
-      <h4 id="什么是CORS"><a href="#什么是CORS" class="headerlink" title="什么是CORS"></a>什么是CORS</h4><pre><code>跨域资源共享(CORS) 是一种机制，当一个资源从与该资源本身所在的服务器不同的域、协议或端口请求一个资源时，资源会发起一个跨域 HTTP 请求。出于安全原因，浏览器限制从脚本内发起的跨源HTTP请求。 例如，XMLHttpRequest和Fetch API遵循同源策略。 这意味着使用这些API的Web应用程序只能从加载应用程序的同一个域请求HTTP资源，除非响应报文包含了正确CORS响应头。
-跨域资源共享（ CORS ）机制允许 Web 应用服务器进行跨域访问控制，从而使跨域数据传输得以安全进行。现代浏览器支持在 API 容器中（例如 XMLHttpRequest 或 Fetch ）使用 CORS，以降低跨域 HTTP 请求所带来的风险。</code></pre><h4 id="什么情况下需要-CORS-？"><a href="#什么情况下需要-CORS-？" class="headerlink" title="什么情况下需要 CORS ？"></a>什么情况下需要 CORS ？</h4><p>跨域资源共享标准（ cross-origin sharing standard ）允许在下列场景中使用跨域 HTTP 请求：</p>
+      <h4 id="什么是CORS"><a href="#什么是CORS" class="headerlink" title="什么是CORS"></a>什么是CORS</h4><p>跨域资源共享(CORS) 是一种机制，当一个资源从与该资源本身所在的服务器不同的域、协议或端口请求一个资源时，资源会发起一个跨域 HTTP 请求。出于安全原因，浏览器限制从脚本内发起的跨源HTTP请求。 例如，XMLHttpRequest和Fetch API遵循同源策略。 这意味着使用这些API的Web应用程序只能从加载应用程序的同一个域请求HTTP资源，除非响应报文包含了正确CORS响应头。</p>
+<p>跨域资源共享（ CORS ）机制允许 Web 应用服务器进行跨域访问控制，从而使跨域数据传输得以安全进行。现代浏览器支持在 API 容器中（例如 XMLHttpRequest 或 Fetch ）使用 CORS，以降低跨域 HTTP 请求所带来的风险。</p>
+<h4 id="什么情况下需要-CORS-？"><a href="#什么情况下需要-CORS-？" class="headerlink" title="什么情况下需要 CORS ？"></a>什么情况下需要 CORS ？</h4><p>跨域资源共享标准（ cross-origin sharing standard ）允许在下列场景中使用跨域 HTTP 请求：</p>
 <ul>
 <li>由 <code>XMLHttpRequest</code> 或 <code>Fetch</code> 发起的跨域 HTTP 请求；</li>
 <li>Web 字体 (CSS 中通过 @font-face 使用跨域字体资源)；</li>
