@@ -1,0 +1,54 @@
+{
+  "applinks": {
+    "App": [],
+    "details": [
+      {
+        "appID": "QHN836JWGY.net.gree.Chararu",
+        "paths": [
+          "/line/index.html",
+          "/bingqr/index.html"
+        ]
+      },
+      {
+        "appID": "XX8DTMS4TL.jp.co.rinna.chararu",
+        "paths": [
+          "/line/index.html",
+          "/bingqr/index.html",
+          "/prod/*"
+        ]
+      },
+      {
+        "appID": "XX8DTMS4TL.jp.co.rinna.chararu.dev",
+        "paths": [
+          "/line/index.html",
+          "/bingqr/index.html",
+          "/dev/*"
+        ]
+      },
+      {
+        "appID":"XX8DTMS4TL.jp.co.rinna.chararu.dev.v2",
+        "paths":[
+          "/line/index.html",
+          "/bingqr/index.html",
+          "/dev2/*"
+        ]
+      },
+      {
+        "appID": "XX8DTMS4TL.jp.co.rinna.chararu.test",
+        "paths": [
+          "/line/index.html",
+          "/bingqr/index.html",
+          "/dev3/*"
+        ]
+      },
+      {
+        "appID": "XX8DTMS4TL.jp.co.rinna.chararu.staging",
+        "paths": [
+          "/line/index.html",
+          "/bingqr/index.html",
+          "/staging/*"
+        ]
+      }
+    ]
+  }
+}
